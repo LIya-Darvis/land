@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: #f1f1f1;
+  background-color: #f6f6f6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.scene-canvas {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  background-color: #121214;
+  position: absolute;
+  z-index: 2;
+}
+
+.side-panel {
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  width: 14rem;
+  background-color: #ffffff;
+  color: #0f0f0f;
+  backdrop-filter: blur(40px);
+  opacity: 0.65;
+  overflow-y: scroll;
+}
+
+.sum-panel {
+  right: 0;
+  top: 40px;
+  position: absolute;
+  z-index: 8;
+  height: 30px;
+  width: auto;
+  background-color: #ffffff;
+  color: #0f0f0f;
+  backdrop-filter: blur(40px);
+  opacity: 0.65;
+  padding: 10px;
+}
+
+.sum-button {
+  right: 0;
+  top: 0;
+  position: absolute;
+  z-index: 8;
+  height: 30px;
+  width: auto;
+  background-color: #ffffff;
+  color: #0f0f0f;
+  backdrop-filter: blur(40px);
+  opacity: 0.65;
+  padding: 10px;
+}
+
+.card-plate {
+  margin: 7px;
+  padding: 7px;
+  border: solid;
+  border-radius: 5px;
+  border-color: #0f0f0f;
+  cursor: pointer;
+}
+
